@@ -12,6 +12,8 @@ public class Sequence {
 
     public static void main(String[] args) {
         
+        System.out.println("Group 1 sequence:\n");
+        
         for(int n=1; n<=20; n++) {
             System.out.print(stq(n) + ", ");
         }
